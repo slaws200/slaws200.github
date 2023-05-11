@@ -36,7 +36,7 @@ text-decoration: none;
 }
 .menu_item {
     border-right: 2px dotted black;
-    padding-right: 28px;
+    padding-right: 30px;
 }
 .menu_item:last-child {
     border: 0;
@@ -102,10 +102,11 @@ text-decoration: none;
 .subheader_wrapper {
     display: flex;
     justify-content: space-around;
+    padding: 0 96px;
 }
 
 .right {
-    padding-left: 290px;
+    padding-left: 270px;
 }
 
 .promo {
@@ -139,6 +140,7 @@ text-decoration: none;
     line-height: 24px;
     text-align: center;
     margin-top: 23px;
+    padding: 0 60px;
 }
 .promo_btn {
     display: block;
@@ -154,4 +156,111 @@ text-decoration: none;
     font-size: 18px;
     font-weight: 400;
     text-transform: uppercase;
+}
+
+.label {
+  margin: 0 auto;
+  height: 24px;
+  width: 112px;
+  padding: 4px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.12s all;
+}
+.label:hover {
+    background-color: #ffffff;
+    font-weight: 400;
+    border: 1px solid #222222;
+    color: #000000;
+}
+.label_white {
+    background-color: #ffffff;
+    color: #000000;
+}
+.label_white:hover {
+    background-color: #200020;
+    border: none;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.title {
+  margin-bottom: 0;
+  margin-top: 38px;
+  color: #222222;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+.title_white {
+    color: #ffffff;
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+  color: #222222;
+}
+.subtitle_white {
+    color: #ffffff;
+    margin-top: 10px;
+}
+.reasons {
+  padding: 71px 0 65px 0;
+}
+
+.reasons_wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.reasons_block {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    margin-top: 35px;
+}
+
+  .reasons_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius: 100%;
+}
+
+.reasons_descr {
+    width: 340px;
+}
+.reasons_subtitle {
+    line-height: 21px;
+    color: #1eacc7;
+    font-size: 17px;
+    font-weight: 400;
+}
+.reasons_text {
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}
+.xs-visible {
+    display: none;
+}
+
+.xl-visible {
+    display: none;
 }
