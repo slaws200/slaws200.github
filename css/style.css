@@ -461,3 +461,130 @@ text-decoration: none;
   margin-bottom: 0px;
   width: 45%;
 }
+.world {
+  background-color: #080816;
+  position: relative;
+}
+.world_bg {
+  background: url("../bg/world_bg.jpg") center center;
+  background-repeat: no-repeat;
+  min-height: 720px;
+  padding: 46px 0 50px 0;
+}
+.world_cities {
+  display: block;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 50px;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1FBAD6;
+  text-decoration: none;
+}
+footer {
+  min-height: 155px;
+  padding: 11px 0;
+}
+
+.divider {
+  width: 300px;
+  height: 4px;
+  background: #1FBAD6;
+  margin: 0 auto;
+}
+
+.menu_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style-type: none;
+  margin-top: 32px;
+  margin-bottom: 0;
+  padding: 0;
+}
+.menu_footer li {
+  line-height: 15px;
+}
+.menu_footer a {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #070716;
+  margin: 0 23px;
+}
+.menu_footer_second {
+  margin-top: 16px;
+}
+.menu_footer_second a {
+  font-weight: 300;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #999999;
+  margin: 0 10px;
+}
+
+.language {
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 11px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1FBAD6;
+  text-decoration: none;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  left: 23px;
+  top: -72px;
+}
+.socials_round {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 3px;
+  width: 35px;
+  height: 35px;
+  background: #070716;
+  border-radius: 100%;
+}
+.socials_round img {
+  display: block;
+  margin: 0 auto;
+}
+
+.download {
+  position: absolute;
+  right: 21px;
+  top: -73px;
+}
+
+.xxs-visible {
+  display: none;
+}
