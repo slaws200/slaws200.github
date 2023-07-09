@@ -14,4 +14,9 @@ window.addEventListener('DOMContentLoaded', () => {
             menu.classList.toggle('menu_active');
         })
     })
+
+    const links = document.querySelectorAll('[href="#"]');
+    links.forEach(item => {
+        item.addEventListener('click', (e) => e.preventDefault());
+    });
 })
